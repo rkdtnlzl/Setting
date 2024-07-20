@@ -14,7 +14,6 @@
 		01FF37EB2C4B8328004F5F3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01FF37EA2C4B8328004F5F3A /* Base */; };
 		01FF37F32C4B8AC2004F5F3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37F22C4B8AC2004F5F3A /* BaseViewController.swift */; };
 		01FF37F62C4B946C004F5F3A /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37F52C4B946C004F5F3A /* SettingsItem.swift */; };
-		01FF37F82C4B948B004F5F3A /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37F72C4B948B004F5F3A /* SettingsSection.swift */; };
 		01FF37FA2C4B9519004F5F3A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37F92C4B9519004F5F3A /* SettingsViewModel.swift */; };
 		01FF37FC2C4B959F004F5F3A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF37FB2C4B959F004F5F3A /* Observable.swift */; };
 		01FF37FF2C4B9F3C004F5F3A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01FF37FE2C4B9F3C004F5F3A /* SnapKit */; };
@@ -30,7 +29,6 @@
 		01FF37EC2C4B8328004F5F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01FF37F22C4B8AC2004F5F3A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		01FF37F52C4B946C004F5F3A /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
-		01FF37F72C4B948B004F5F3A /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
 		01FF37F92C4B9519004F5F3A /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		01FF37FB2C4B959F004F5F3A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,22 +69,13 @@
 				01FF37F22C4B8AC2004F5F3A /* BaseViewController.swift */,
 				01FF37E22C4B8327004F5F3A /* SettingsViewController.swift */,
 				01FF37F92C4B9519004F5F3A /* SettingsViewModel.swift */,
+				01FF37F52C4B946C004F5F3A /* SettingsItem.swift */,
 				01FF37FB2C4B959F004F5F3A /* Observable.swift */,
-				01FF37F42C4B9460004F5F3A /* Model */,
 				01FF37E72C4B8328004F5F3A /* Assets.xcassets */,
 				01FF37E92C4B8328004F5F3A /* LaunchScreen.storyboard */,
 				01FF37EC2C4B8328004F5F3A /* Info.plist */,
 			);
 			path = Setting;
-			sourceTree = "<group>";
-		};
-		01FF37F42C4B9460004F5F3A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				01FF37F52C4B946C004F5F3A /* SettingsItem.swift */,
-				01FF37F72C4B948B004F5F3A /* SettingsSection.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FF37FC2C4B959F004F5F3A /* Observable.swift in Sources */,
-				01FF37F82C4B948B004F5F3A /* SettingsSection.swift in Sources */,
 				01FF37E32C4B8327004F5F3A /* SettingsViewController.swift in Sources */,
 				01FF37F32C4B8AC2004F5F3A /* BaseViewController.swift in Sources */,
 				01FF37DF2C4B8327004F5F3A /* AppDelegate.swift in Sources */,
